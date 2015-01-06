@@ -3,15 +3,30 @@
 ---
 @charset "utf-8";
 
+$base-font-size: 16px;
 
+@function em($px, $base: $base-font-size) {
+  @return ($px / $base) * 1em;
+}
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+// $base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Open Sans", sans-serif;
+
+$font-size-base:          em($base-font-size);
+$font-size-large:         em(18px);
+$font-size-small:         em(14px);
+
+$font-size-h1:            em(30px);
+$font-size-h2:            em(24px);
+$font-size-h3:            em(18px);
+$font-size-h4:            em(16px);
+$font-size-h5:            em(14px);
+$font-size-h6:            em(12px);
+
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     36px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -20,6 +35,8 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$wrapper-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -34,16 +51,17 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "normalize",
+  "base",
+  "layout",
+  "syntax-highlighting"
 ;
