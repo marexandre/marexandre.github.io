@@ -200,13 +200,45 @@
 .post-title {
   letter-spacing: -1px;
   line-height: 1;
+
+  a {
+    color: $text-color;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
 
+  strong > img {
+    margin-left: -10%;
+    max-width: 120%;
+  }
+
+  @include media-query($on-laptop) {
+    strong > img {
+      margin-left: 0;
+      max-width: 100%;
+    }
+  }
+
   // a {
   //   color: $text-color;
   //   border-bottom: 2px solid $text-color;
   // }
+}
+
+.pagination {
+  @extend %clearfix;
+  border-top: 1px solid $grey-color-light;
+  padding: 10px;
+
+  .next {
+    float: left;
+  }
+  .previous {
+    float: right;
+  }
 }

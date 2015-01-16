@@ -13,3 +13,6 @@ github_username:  marexandre
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+# Outputting
+permalink: /:categories/:title.html

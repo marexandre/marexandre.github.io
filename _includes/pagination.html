@@ -1,0 +1,27 @@
+{% if current.previous or current.next %}
+<div class="pagination">
+  {% if current.next %}
+    <div class="next">
+      <a href="{{ current.next.url }}">← Newer Posts</a>
+    </div>
+  {% endif %}
+
+  {% if current.previous %}
+    <div class="previous">
+      <a href="{{ current.previous.url }}">Older Posts →</a>
+    </div>
+  {% endif %}
+
+  <script>
+    document.body.onkeyup = function(e){
+      {% if current.next %}
+      if (e.keyCode == '37') { window.location = '{{ current.next.url }}'; }
+      {% endif %}
+      {% if current.previous %}
+      if (e.keyCode == '39') { window.location = '{{ current.previous.url }}'; }
+      {% endif %}
+    };
+  </script>
+
+</div>
+{% endif %}
