@@ -212,6 +212,10 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  img {
+    margin-bottom: $spacing-unit;
+  }
+
   strong > img {
     margin-left: -10%;
     max-width: 120%;

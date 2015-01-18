@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+**![My helpful screenshot](/assets/about.jpg)**
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+My name is **Alexandre Kirillov**. I'm a front-end developer living and working in [Tokyo](http://gengo.com/). Passionate about reducing the gap between designers and developers, making pixel perfect UI's with TDD JavaScript, TypeScript, NodeJS, HTML5, CSS3.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I'm a [Third Culture Kid](http://tckid.com/what-is-a-tck.html) whom grew up in various parts of Japan, also lived in Russia, England, France, United States and Canada :)
+
+I push code to [GitHub](https://github.com/marexandre), upload photos to [Instagram](http://instagram.com/marex) and sometime to [vsco](http://marex.vsco.co/), cysling activities on [Strava](http://www.strava.com/athletes/7417) and work related details on [LinkedIn](https://www.linkedin.com/in/marexandre).
+
