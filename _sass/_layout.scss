@@ -213,7 +213,7 @@
   margin-bottom: $spacing-unit;
 
   img {
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit / 2 0;
   }
 
   strong > img {
@@ -245,4 +245,28 @@
   .previous {
     float: right;
   }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  margin: $spacing-unit / 2 0;
+
+  margin-left: -10%;
+  width: 120%;
+
+  @include media-query($on-laptop) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
