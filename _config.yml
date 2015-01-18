@@ -16,3 +16,5 @@ highlighter: pygments
 
 # Outputting
 permalink: /:categories/:title.html
+
+google_analytics_id: UA-58673432-1
