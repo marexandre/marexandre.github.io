@@ -34,7 +34,7 @@ This photo was taken while rehearsal. The truth is that this was an one shot vid
 ## Modeling
 **![modeling](/assets/a-bit-about-the-past/modeling.jpg)**
 
-If you are a foreigner living in Tokyo there are a lot of opportunities for modeling and I was lucky to get some experience in TV-AD's, fashion magazine and some online stores. The biggest benefit I got out of it was when filming my own Motion Graphics it got easier to give acting instructions to actors.
+If you are a foreigner living in Tokyo there are a lot of opportunities for modeling and I was lucky to get some experience in TV-AD's, fashion magazines and some online stores. The biggest benefit I got out of it was when filming my own Motion Graphics it got easier to give acting instructions to actors, and some cash too ;)
 
 <hr>
 Not so much but that's some of my past. I might add some more details on how or why I stopped doing all of that and now doing front-end development.
