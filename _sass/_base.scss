@@ -31,7 +31,13 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
+  margin-top: $spacing-unit;
   margin-bottom: $spacing-unit / 2;
+
+  @include media-query($on-palm) {
+    margin-top: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 4;
+  }
 }
 
 
@@ -83,7 +89,6 @@ li {
 // }
 h1, h2, h3 {
   font-weight: 600;
-  margin-top: $spacing-unit;
 }
 h4, h5, h6 {
   font-weight: 300;
@@ -91,12 +96,21 @@ h4, h5, h6 {
 }
 h1 {
   font-size: $font-size-h1;
+  @include media-query($on-palm) {
+    font-size: $font-size-h2;
+  }
 }
 h2 {
   font-size: $font-size-h2;
+  @include media-query($on-palm) {
+    font-size: $font-size-h3;
+  }
 }
 h3 {
   font-size: $font-size-h3;
+  @include media-query($on-palm) {
+    font-size: $font-size-h4;
+  }
 }
 h4 {
   font-size: $font-size-h4;
@@ -172,6 +186,9 @@ hr {
   border: 0;
   border-top: 1px solid $grey-color-light;
   margin: $spacing-unit 0;
+  @include media-query($on-palm) {
+    margin: $spacing-unit / 2 0;
+  }
 }
 
 /**
