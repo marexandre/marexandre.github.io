@@ -231,6 +231,17 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  a {
+    border-bottom: 2px solid $grey-color-light;
+    color: $text-color;
+    transition: border-color .25s;
+
+    &:hover {
+      text-decoration: none;
+      border-bottom: 2px solid $text-color;
+    }
+  }
+
   img {
     margin: $spacing-unit / 2 0;
     @include media-query($on-palm) {

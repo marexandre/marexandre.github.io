@@ -29,6 +29,10 @@ This was my graduation project. I always loved or was interested in how things w
 This photo was taken while rehearsal. The truth is that this was an one shot video, but when watching it on the screen it kind of seems that those three people are in deferent places, but in reality they are just working on one big table at the same time, and that is the secret for not using VFX. We probably did like 8 or 9 takes to get it right. Here are some photos from the that day:
 
 ![Workflow backs tage](/assets/a-bit-about-the-past/workflow-backstage.jpg)
+Was fortunate enough to have such a nice studio that we could use almost anytime we needed. It's always so nice to have some friend whom helped you with the filming, acting + etc.
+
+![Workspace](/assets/a-bit-about-the-past/workspace.jpg)
+The workspace at the University was something like this. Yup that's a [PowerBookG4](http://apple-history.com/compare/pg4_15167/mbp_15_mid_12) :)
 
 <hr>
 ## Modeling
