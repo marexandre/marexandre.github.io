@@ -232,7 +232,7 @@
   margin-bottom: $spacing-unit;
 
   a {
-    border-bottom: 2px solid $grey-color-light;
+    border-bottom: 2px solid lighten($text-color, 60%);
     color: $text-color;
     transition: border-color .25s;
 
