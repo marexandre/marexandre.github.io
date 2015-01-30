@@ -38,7 +38,7 @@ The workspace at the University was something like this. Yup that's a [PowerBook
 ## Modeling
 **![modeling](/assets/a-bit-about-the-past/modeling.jpg)**
 
-If you are a foreigner living in Tokyo there are a lot of opportunities for modeling and I was lucky to get some experience in TV-AD's, fashion magazines and some online stores. The biggest benefit I got out of it was when filming my own Motion Graphics it got easier to give acting instructions to actors, and some cash too ;)
+If you are a foreigner living in Tokyo there are a lot of opportunities for modeling and I was lucky to get some experience in TV-AD's like [this](https://www.youtube.com/watch?v=MpWq3SaCzJg) and [this](https://www.youtube.com/watch?v=GIxPNFkwO8A), fashion magazines, fashion related [video](https://www.youtube.com/watch?v=tu1fvd6-u-U) and some online stores. The biggest benefit I got out of it was when filming my own Motion Graphics it got easier to give acting instructions to actors, and some cash too ;)
 
 <hr>
 Not so much but that's some of my past. I might add some more details on how or why I stopped doing all of that and now doing front-end development.
