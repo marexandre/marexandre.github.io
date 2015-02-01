@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+	<link href="favicon.ico" rel="shortcut icon" type="image/ico" />
+
+    <title>marex / model</title>
+
+	<!-- CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/master.css" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        marex<em>model</em>
+    </header>
+
+    <section id="content">
+        <div class="loader"><img src="images/loader2.gif" alt="loader" width="24" height="24" /></div>
+        <ul class="gridLayout"></ul>
+    </section>
+
+
+    <!-- JS -->
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.gridlayout.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var ImageLoader = function() {
+                // MEMBERS
+                var total       = 0,
+                    loadedCount = 0,
+                    images      = [],
+                    isLoading   = false,
+                    _onComplete = function() {},
+                    _onProgress = function() {};
+
+                // start load
+                function _load(imageArray) {
+                    total = imageArray.length;
+
+                    for ( var i = 0; i < total; i++ ) {
+                        images[i] = new Image();
+                        images[i].onload = function(){
+                            _onImageLoaded(this.index, this);
+                        };
+                        images[i].onerror=function(){
+                            _onImageLoaded(this.index, '');
+                        };
+                        images[i].index = i;
+                        images[i].src = imageArray[i];
+                    }
+                }
+
+                // on load complete.
+                function _onImageLoaded(index, img) {
+                    _onProgress(index, img);
+
+                    loadedCount++;
+                    if ( total <= loadedCount ) {
+                        _onComplete( images );
+
+                        total       = 0;
+                        loadedCount = 0;
+                        images      = [];
+                        isLoading   = false;
+                        _onComplete = null;
+                        _onProgress = null;
+                    }
+                }
+
+                // --- public ---
+                return {
+                    onComplete: function(f) {
+                        _onComplete = f;
+                    },
+                    onProgress: function(f) {
+                        _onProgress = f;
+                    },
+                    load: function(imageArray) {
+                        if (isLoading) return;
+                        isLoading = true;
+
+                        _load(imageArray);
+                    }
+                };
+            };
+
+            /**
+             * MAIN.
+             */
+            var $ul        = $('#content').find('ul'),
+                tmpId      = [],
+                tmlImgList = [],
+                tmpHTML    = [];
+
+            for (var i = 0; i <= 58; i++) {
+                tmpId.push( i );
+            }
+
+            while (tmpId.length) {
+                var i = tmpId[Math.floor(Math.random() * tmpId.length)],
+                    id = ( i < 10 ) ? '0'+ i : i;
+                tmpHTML.push('<li class="item"><div class="shadow"></div><img src="images/thumb/marex_0'+ id +'.jpg" width="200px"/></li>');
+                tmlImgList.push('images/thumb/marex_0'+ id +'.jpg');
+                // tmpId.splice( tmpId.indexOf(i) , 1 );
+                tmpId.splice( $.inArray(i, tmpId) , 1 );
+            }
+
+            $ul.html( tmpHTML.join('') );
+
+            var $li = $ul.find('li').css({ opacity: 0 }),
+                $shadow = $ul.find('.shadow');
+
+            $ul.gridLayout({
+                margin: 5
+            });
+            $(window).resize();
+
+            var imageLoader = new ImageLoader();
+            imageLoader.onProgress(function(i) {
+                setTimeout(function() {
+                    $($shadow[i]).height( $($li[i]).find('img').height() ).show();
+                    $($li[i]).delay(30 * i).animate({ opacity:1 },350);
+                }, 0);
+                $(window).resize();
+            });
+            imageLoader.onComplete(function() {
+                $('.loader').remove();
+            });
+            imageLoader.load(tmlImgList);
+        });
+    </script>
+</body>
+</html>
