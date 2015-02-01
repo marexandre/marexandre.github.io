@@ -10,9 +10,9 @@ categories: blog
 </div>
 
 ## MAREXdesign REEL 2008
-At our university we did couple of exhibitions every year and this one was just before my job hunting so I decided to make my own demo reel. A lame reason but it got me motivated ;)
+Back when I was still in university I was using MAREXdesing as my brand name and making things or doing some freelancing work. Also, every year at our university we had to do couple of exhibitions, this one was just before my job hunting so I decided to make my own demo reel. A lame reason but it got me motivated ;)
 ![MAREXdesign REEL 2008](/assets/a-bit-about-the-past/demoreel-2008.jpg)
-At that time I was kind of unsure what I wanted or was going to do in the future, so I made this DVD player thing float in the mid air to represent unstableness and by exposing raw materials to represent complexity of my mind/art/future. It could have been completely different but that's how I remember it now. It was cool that the DVD actually spun and played my demo reel.
+At that time I was kind of unsure what I wanted or what I was going to to do in with my future, so I made this DVD player thing float in the mid air to represent unstableness and by exposing raw materials to represent complexity of my mind/art/future etc. It could have been completely different but that's how I remember it now. It was cool that the DVD actually spun and played my demo reel.
 
 <hr>
 ## Workflow
@@ -20,13 +20,13 @@ At that time I was kind of unsure what I wanted or was going to do in the future
 <iframe src="//player.vimeo.com/video/50513026?title=0&amp;byline=0&amp;portrait=0" width="500" height="133" frameborder="0"></iframe>
 </div>
 
-This was my graduation project. I always loved or was interested in how things were made more then the actual completed thing. So that was my theme. Before starting with this project I did a lot of Motion Graphics with VFX, but somehow I was getting tiered of it. I kind of wanted to make something that looks like it's using VFX but when you finish watching it you kind of realize that there is no VFX.
+This was my graduation project. I always loved or was interested in how things were made more then the actual completed thing. So that was my theme. Before starting with this project I did a lot of Motion Graphics with VFX, but somehow I was getting tiered of it. I kind of wanted to make something that looks like it's using VFX but when you finish watching it you kind of realize that there is almost no VFX.
 ![Workflow](/assets/a-bit-about-the-past/workflow-table.jpg)
 This photo was taken while rehearsal. The truth is that this was an one shot video, but when watching it on the screen it kind of seems that those three people are in deferent places, but in reality they are just working on one big table at the same time, and that is the secret for not using VFX. We probably did like 8 or 9 takes to get it right. Here are some photos from the that day:
 ![Workflow backs tage](/assets/a-bit-about-the-past/workflow-backstage.jpg)
-Was fortunate enough to have such a nice studio that we could use almost anytime we needed. It's always nice to have some friends whom will help you with filming, acting + etc.
+Was fortunate enough to have a very nice studio at the university that we could use almost anytime we needed. It's also very nice to have some friends whom will help you out with filming, acting + etc.
 ![Workspace](/assets/a-bit-about-the-past/workspace.jpg)
-Workspace at the University was something like this. Yup that's a [PowerBookG4](http://apple-history.com/compare/pg4_15167/mbp_15_mid_12) :)
+Workspace at the university was something like this. Yup that's a [PowerBookG4](http://apple-history.com/compare/pg4_15167/mbp_15_mid_12) :)
 
 <hr>
 ## Modeling
