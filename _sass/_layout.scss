@@ -242,13 +242,6 @@
     }
   }
 
-  img {
-    margin: $spacing-unit 0;
-    @include media-query($on-palm) {
-      margin: $spacing-unit / 2 0;
-    }
-  }
-
   strong > img {
     margin-top: 0;
     margin-bottom: 0;
