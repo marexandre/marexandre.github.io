@@ -7,7 +7,7 @@ permalink: /about/
 
 **![At pizza Slice](/assets/about.jpg)**
 
-My name is **Alexandre Kirillov**. I'm a front-end developer living and working in [Tokyo](http://gengo.com/). Passionate about reducing the gap between designers and developers, making pixel perfect UI's with TDD JavaScript, TypeScript, Node.js, HTML5, CSS3. Interested in React, Swift and Go.
+My name is **Alexandre Kirillov**. I'm a front-end developer living and working in [Tokyo](http://gengo.com/). Passion for reducing the gap between designers and developers through design thinking, prototyping and pixel perfect UIs built with TDD JavaScript, Node.js, HTML5, CSS3. Interested in React, Swift and Go.
 
 I'm a [Third Culture Kid](http://tckid.com/what-is-a-tck.html) whom grew up in various parts of Japan, also lived in Russia, England, France, United States and Canada :)
 
