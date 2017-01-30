@@ -26,15 +26,15 @@ This was my graduation project. I always loved or was interested in how things w
 
 ![Workflow](/assets/a-bit-about-the-past/workflow-table.jpg)
 
-This photo was taken while rehearsal. The truth is that this was an one shot video, but when watching it on the screen it kind of seems that those three people are in deferent places, but in reality they are just working on one big table at the same time, and that is the secret for not using VFX. We probably did like 8 or 9 takes to get it right. Here are some photos from the that day:
+This photo was taken during the rehearsal. When watching the final version on different screens it would seem that the three people are in deferent places, doing their own thing in a different environment but in reality they are sitting at one big table and working at the same time, and that is the biggest secret for not using VFX or video editing to make it seem like the video was edited to be one video. We probably did like 8 or 9 takes to get it right. Here are some photos from the that day:
 
 ![Workflow backs tage](/assets/a-bit-about-the-past/workflow-backstage.jpg)
 
-Was fortunate enough to have a very nice studio at the university that we could use almost anytime we needed. It's also very nice to have some friends whom will help you out with filming, acting + etc.
+At out university we were fortunate enough to have a very nice studio that we could use almost anytime we wanted. As a student and without a budget it was always nice to have some friends helping each other with filming, acting + etc.
 
 ![Workspace](/assets/a-bit-about-the-past/workspace.jpg)
 
-Workspace at the university was something like this. Yup that's a [PowerBookG4](http://apple-history.com/compare/pg4_15167/mbp_15_mid_12) :)
+Workspace at the university was something like this. Yep, that's a [PowerBookG4](http://apple-history.com/compare/pg4_15167/mbp_15_mid_12), haha, time does fly by ;)
 
 <hr>
 ## Modeling
@@ -46,7 +46,7 @@ If you are a foreigner living in Tokyo there are a lot of opportunities for mode
 ## Cycling
 **![modeling](/assets/a-bit-about-the-past/cycling.jpg)**
 
-Cycling has bit my best hobby since 2008. I don't race at the moment but the photos above are some from some races I did in Japan. I love hill climbing, that suffering feeling when you try to beat your best time on a hill makes me feel alive the most. My first road bike was [Felt](http://www.feltbicycles.com/) F75 2008, that white bike in the photos. Unfortunately that frame cracked while I was riding it. Now I ride a [BMC](http://www.bmc-switzerland.com/) SLR01 2011. I did some epic rides like [this](https://www.strava.com/activities/595861) 209km ride, [this](https://www.strava.com/activities/1581861) ride with 7,358m climbing, [this](https://www.strava.com/activities/6777065) 7.5h ride in the rain and [this](https://www.strava.com/activities/190857535) Mt.Fuji ride with some friends.
+Cycling has been my biggest hobby since 2008. I don't race at the moment but the photos above are some from some races I did in Japan. I love hill climbing, that suffering feeling when you try to beat your best time on a hill makes me feel alive. My first road bike was [Felt](http://www.feltbicycles.com/) F75 2008, that white bike in the photos. Unfortunately that frame cracked while I was riding it. Now I ride a [BMC](http://www.bmc-switzerland.com/) SLR01 2011. I did some epic rides like [this](https://www.strava.com/activities/595861) 209km ride, [this](https://www.strava.com/activities/1581861) ride with 7,358m climbing, [this](https://www.strava.com/activities/6777065) 7.5h ride in the rain and [this](https://www.strava.com/activities/190857535) Mt.Fuji ride with some friends.
 
 <hr>
 Not so much but that's some of my past. I might add some more details on how or why I stopped doing MotionGraphics and became a front-end developer.
