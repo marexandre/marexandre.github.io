@@ -11,4 +11,4 @@ My name is **Alexandre Kirillov**. I'm a front-end developer living and working 
 
 I'm a [Third Culture Kid](http://tckid.com/what-is-a-tck.html) whom grew up in various parts of Japan, also lived in Russia, England, France, United States and Canada :)
 
-I push code to [GitHub](https://github.com/marexandre), upload photos to [Instagram](http://instagram.com/marex) sometime to [vsco](http://marex.vsco.co/) and back in the days to [flickr](https://www.flickr.com/photos/8411047@N06/), cysling activities on [Strava](http://www.strava.com/athletes/7417) and work related details on [LinkedIn](https://www.linkedin.com/in/marexandre).
+I push code to [GitHub](https://github.com/marexandre), upload photos to [Instagram](http://instagram.com/marex) and back in the day to [flickr](https://www.flickr.com/photos/8411047@N06/), cysling activities on [Strava](http://www.strava.com/athletes/7417) and work related details on [LinkedIn](https://www.linkedin.com/in/marexandre).
